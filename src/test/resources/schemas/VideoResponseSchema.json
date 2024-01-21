@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "title": "Mensagem Response",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "dataPublicacao": {
+      "type": "string"
+    },
+    "dataCriacao": {
+      "type": "string"
+    },
+    "dataAlteracao": {
+      "type": "string"
+    },
+    "gostei": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "titulo",
+    "descricao",
+    "url",
+    "dataPublicacao",
+    "dataCriacao",
+    "gostei"
+  ]
+}
+
