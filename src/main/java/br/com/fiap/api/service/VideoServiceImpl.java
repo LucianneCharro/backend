@@ -33,8 +33,8 @@ public class VideoServiceImpl implements VideosService {
                 .orElseThrow(() -> new MensagemNotFoundException("video não encontrado"));
     }
     @Override
-    public List<Videos> buscarVideoTitulo(String titulo) {
-        return videoRepository.findByTitulo(titulo);
+    public List<Videos> buscarVideoTitulo(String titulo, LocalDateTime dataPublicacao) {
+        return videoRepository.findByTituloAndDataPublicacao(titulo, dataPublicacao);
     }
     @Override
     public Videos alterarVideo(UUID id, Videos videosAtualizada) {

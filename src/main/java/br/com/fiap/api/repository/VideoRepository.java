@@ -16,5 +16,5 @@ public interface VideoRepository extends JpaRepository<Videos, UUID> {
     @Query("SELECT m FROM Videos m")
     Page<Videos> listarVideos(Pageable pageable);
 
-    List<Videos> findByTitulo(String titulo);
+    List<Videos> findByTituloAndDataPublicacao(String titulo, LocalDateTime dataPublicacao);
 }

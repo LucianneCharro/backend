@@ -20,8 +20,6 @@ w
 Gsrc/test/java/br/com/fiap/api/performance/ApiPerformanceSimulation.java,c\9\c9544816dd8127275e426a5c56d766eded841c40
 ;
 backend.iml,f\8\f83a22978f6678558634793e41460cd9554ef337
-A
-docker/Dockerfile,8\f\8ffde13df31f212345642ccfa4755f3bd99e7e61
 n
 >src/main/java/br/com/fiap/api/controller/VideosController.java,f\4\f40fdad165aafd92a4f2f0f53e43cd349acd3a09
 h
@@ -48,20 +46,10 @@ l
 <src/test/java/br/com/fiap/api/service/VideosServiceTest.java,a\6\a68a750e1b8caefbe8a8585b47a969b139ffc7d9
 r
 Bsrc/test/java/br/com/fiap/api/repository/VideosRepositoryTest.java,f\e\fe47e2eee9528981b1ab84b87474b9a4f095b7b2
-?
-demo-codigo.iml,6\9\69f4b8c13b08542b678e3e4b7ae4ed953b9ed145
 T
 $.idea/checkstyleidea-libs/readme.txt,0\7\07b7bfcbe4a27e2783b05ea0caae034a6bc036ec
 G
 fase4-techchallenge.iml,7\9\7933ac36ecb7f522dcaab6abdc24d22afcad65d7
-9
-	README.MD,9\6\968e80af9562e09cebe594968b130076952eafe1
->
-README/MD.java,6\0\6063b48b34043cb65fe09c51ec59e69ec36d89ab
-Å
-Q.idea/sonarlint/securityhotspotstore/6/9/69f4b8c13b08542b678e3e4b7ae4ed953b9ed145,0\4\04199a943398ed72677a6623562a9c5da3a47a02
-w
-G.idea/sonarlint/issuestore/6/9/69f4b8c13b08542b678e3e4b7ae4ed953b9ed145,e\7\e79a5132d5dc52ded4115772b2642974453d1e81
 Å
 Q.idea/sonarlint/securityhotspotstore/f/e/fe47e2eee9528981b1ab84b87474b9a4f095b7b2,9\8\983382ea325c6b5fa5d3a0b78fd262ad244e13e6
 Å
@@ -108,8 +96,6 @@ w
 G.idea/sonarlint/issuestore/f/8/f83a22978f6678558634793e41460cd9554ef337,e\3\e345456a05ee56ec00c11cf3d71c1caa24af1fe2
 w
 G.idea/sonarlint/issuestore/f/8/f85b4feb8e7b1bfdae47ebf2f327574ead76a42f,a\2\a2a30e9fa90885b927ee772a63780c0f9fe54459
-Å
-Q.idea/sonarlint/securityhotspotstore/6/0/6063b48b34043cb65fe09c51ec59e69ec36d89ab,a\b\abccddb790e3a527c8848964d1e407cb1e12a880
 w
 G.idea/sonarlint/issuestore/f/e/fe47e2eee9528981b1ab84b87474b9a4f095b7b2,8\a\8a5dc15f9228b48b952b1d41d0652d9db5f20832
 Å
@@ -149,8 +135,6 @@ G.idea/sonarlint/issuestore/1/7/171e73c94b01bef22f38d9dcd16d828a69819c4c,9\b\9b
 Å
 Q.idea/sonarlint/securityhotspotstore/f/4/f40fdad165aafd92a4f2f0f53e43cd349acd3a09,2\5\2589c9ff4af9125f66c6f29036f124903afb8e9b
 Å
-Q.idea/sonarlint/securityhotspotstore/8/f/8ffde13df31f212345642ccfa4755f3bd99e7e61,9\0\90283df551131f125338b8db4e9dfbe978bb7ecb
-Å
 Q.idea/sonarlint/securityhotspotstore/1/1/116f038440e0cc2dafb6b0f5754a2e476e1d393d,d\a\daaf355f2357c5c3db1348690cb7b419e7b34884
 Å
 Q.idea/sonarlint/securityhotspotstore/f/8/f85b4feb8e7b1bfdae47ebf2f327574ead76a42f,9\e\9e7d3eb0fa1dc0ce7374bb3137032bc5c42a2a4f
@@ -160,3 +144,5 @@ w
 G.idea/sonarlint/issuestore/1/b/1baf0aee98f166ab8caf8d9e89d352c11375f07d,e\7\e746c06f0a5a76e954c406546082d256c85498e4
 w
 G.idea/sonarlint/issuestore/2/c/2c5062bdcfafb13862deb7d748cf0388f105fbbe,8\f\8ff8b4307b84a94d50e9fc9b815bb0abc1aa0b17
+d
+4src/main/java/br/com/fiap/api/dto/VideoResponse.java,7\8\788554531227fd09eaf58df84d0b133e694d4d1e

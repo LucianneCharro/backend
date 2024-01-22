@@ -28,5 +28,5 @@ public interface VideosService {
 
   Page<Videos> listarVideo(Pageable pageable);
 
-  List<Videos> buscarVideoTitulo(String titulo);
+  List<Videos> buscarVideoTitulo(String titulo, LocalDateTime dataPublicacao);
 }

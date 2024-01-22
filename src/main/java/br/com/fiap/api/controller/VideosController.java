@@ -18,6 +18,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -65,9 +66,15 @@ public class VideosController {
         }
     }
 
-    @GetMapping("/titulo/{titulo}")
-        public ResponseEntity<?> buscarVideoTitulo(@PathVariable String titulo) {
-        var videoEncontrada = videosService.buscarVideoTitulo(titulo);
+//    @GetMapping("/titulo/{titulo}")
+//        public ResponseEntity<?> buscarVideoTitulo(@PathVariable String titulo) {
+//        var videoEncontrada = videosService.buscarVideoTitulo(titulo);
+//        return new ResponseEntity<>(videoEncontrada, HttpStatus.OK);
+//    }
+    @GetMapping("/titulo/{titulo}/{dataPublicacao}")
+    public ResponseEntity<?> buscarVideoTitulo(@PathVariable String titulo,
+                                               @PathVariable @DateTimeFormat(pattern="yyyy-MM-dd' 'HH:mm:ss.SSSz") LocalDateTime dataPublicacao) {
+        var videoEncontrada = videosService.buscarVideoTitulo(titulo, dataPublicacao);
         return new ResponseEntity<>(videoEncontrada, HttpStatus.OK);
     }
 
