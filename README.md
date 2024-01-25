@@ -49,5 +49,5 @@ Response:
 - Utilização do Webflux e criação do mongodb.
 - 
 ## 📁 Acesso ao projeto
-Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/LucianneCharro/consumo-energia/tree/feature-segunda-fase/src).
+Você pode acessar os arquivos do projeto clicando [aqui](https://github.com/LucianneCharro/backend).
 
