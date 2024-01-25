@@ -3,12 +3,9 @@ package br.com.fiap.api.service;
 import br.com.fiap.api.exception.MensagemNotFoundException;
 import br.com.fiap.api.model.Videos;
 import br.com.fiap.api.repository.VideoRepository;
-import com.redis.S;
 import lombok.RequiredArgsConstructor;
-import org.springframework.core.convert.Property;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;

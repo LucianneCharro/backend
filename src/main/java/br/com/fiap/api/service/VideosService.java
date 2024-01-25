@@ -11,6 +11,7 @@ import org.springframework.core.convert.Property;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import reactor.core.publisher.Flux;
 
 /**
  * registrar video.
@@ -29,4 +30,5 @@ public interface VideosService {
   Page<Videos> listarVideo(Pageable pageable);
 
   List<Videos> buscarVideoTitulo(String titulo, LocalDateTime dataPublicacao);
+
 }

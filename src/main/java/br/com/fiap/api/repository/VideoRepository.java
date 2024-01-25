@@ -5,6 +5,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
+import reactor.core.publisher.Flux;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
@@ -17,4 +18,5 @@ public interface VideoRepository extends JpaRepository<Videos, UUID> {
     Page<Videos> listarVideos(Pageable pageable);
 
     List<Videos> findByTituloAndDataPublicacao(String titulo, LocalDateTime dataPublicacao);
+
 }
